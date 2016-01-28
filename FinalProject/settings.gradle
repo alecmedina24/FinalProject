@@ -1,1 +1,4 @@
 include ':app'
+include ':libjava'
+include ':GCE'
+include ':JokeDisplay'
