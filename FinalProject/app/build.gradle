@@ -35,7 +35,7 @@ android {
 
 dependencies {
     // Added for AdMob
-    compile 'com.google.android.gms:play-services:8.4.0'
+    freeCompile 'com.google.android.gms:play-services:8.3.0'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':libjava')
     compile project(':JokeDisplay')
