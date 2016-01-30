@@ -28,6 +28,8 @@ public class MainActivityFragment extends Fragment implements JokeService.CallBa
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
 
+        setUp(root);
+
         jokeService = new JokeService(this);
         jokeService.getJokes();
 
@@ -54,4 +56,6 @@ public class MainActivityFragment extends Fragment implements JokeService.CallBa
     public void setJokes(String[] j) {
         jokes = j;
     }
+
+    public void setUp(View view){}
 }

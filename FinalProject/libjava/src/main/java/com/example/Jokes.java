@@ -25,8 +25,4 @@ public class Jokes {
         return jokes;
     }
 
-    public int JokesSize() {
-        return jokes.length;
-    }
-
 }
